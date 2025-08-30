@@ -1,0 +1,10 @@
+{
+    // Use CMake Tools for configuration
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+    // File associations
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp"
+    }
+}
