@@ -15,7 +15,9 @@
                 "focus": false,
                 "panel": "shared"
             },
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "Run All Tests",
@@ -37,7 +39,69 @@
             "label": "Run Two Sum Tests",
             "type": "shell",
             "command": "./scripts/test.sh",
-            "args": ["two_sum_test"],
+            "args": [
+                "two_sum_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Merge Strings Alternately Tests",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "merge_strings_alternately_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Palindrome Number Tests",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "palindrome_number_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Merge Sorted Array Tests",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "merge_sorted_array_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Trie Tests",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "implement_trie_test"
+            ],
             "group": "test",
             "presentation": {
                 "echo": true,
