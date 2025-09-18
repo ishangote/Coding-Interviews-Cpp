@@ -15,11 +15,17 @@ A structured repository for practicing coding interview problems in C++ with com
 # Build the entire project
 ./scripts/build.sh
 
-# Run all tests
+# Run all tests (builds automatically)
 ./scripts/test.sh
 
-# Run specific test
+# Run all tests without rebuilding
+./scripts/test.sh --no-build
+
+# Run a specific test
 ./scripts/test.sh two_sum_test
+
+# Run a specific test without rebuilding
+./scripts/test.sh --no-build two_sum_test
 ```
 
 ### VS Code Integration
@@ -31,8 +37,10 @@ A structured repository for practicing coding interview problems in C++ with com
 **Available Tasks:**
 - `Build Project` - Compiles the entire project
 - `Run All Tests` - Runs all tests with automatic building
+- `Run All Tests (no build)` - Runs all tests without rebuilding
 - `Run Two Sum Tests` - Runs only Two Sum tests
 - `Run Task` → Select any specific test
+- `Run Two Sum Tests (no build)` - Runs only Two Sum tests without rebuilding
 
 **Adding New Test Tasks:**
 When you add a new problem, update `.vscode/tasks.json`:
@@ -51,7 +59,7 @@ When you add a new problem, update `.vscode/tasks.json`:
 Coding-Interviews-Cpp/
 ├── scripts/
 │   ├── build.sh          # Build automation script
-│   └── test.sh           # Test automation script
+│   └── test.sh           # Test automation scripqt
 ├── Leetcode/
 │   ├── CMakeLists.txt    # Leetcode-specific build config
 │   └── 1_two_sum/
@@ -69,8 +77,10 @@ Coding-Interviews-Cpp/
 
 ### Running Tests
 - **All tests:** `./scripts/test.sh`
+- **All tests (no build):** `./scripts/test.sh --no-build`
 - **Specific test:** `./scripts/test.sh two_sum_test`
-- **VS Code:** Use Command Palette → `Tasks: Run Test Task`
+- **Specific test (no build):** `./scripts/test.sh --no-build two_sum_test`
+- **VS Code:** Command Palette → `Tasks: Run Test Task`
 
 ### Adding New Problems
 
@@ -108,7 +118,7 @@ cd Leetcode && ./two_sum_test
 1. **Solve a problem** → Write `problem_name.cpp`
 2. **Write tests** → Create `problem_name_test.cpp`
 3. **Add to CMake** → Update `Leetcode/CMakeLists.txt`
-4. **Test** → Run `./scripts/test.sh problem_name_test`
+4. **Test** → Run `./scripts/test.sh problem_name_test` or `--no-build` for faster runs
 5. **Optional: VS Code integration** → Add task to `.vscode/tasks.json` (see VS Code section above)
 6. **Repeat** 🔄
 

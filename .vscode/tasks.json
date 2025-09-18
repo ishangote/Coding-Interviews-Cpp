@@ -36,6 +36,19 @@
             "dependsOn": "Build Project"
         },
         {
+            "label": "Run All Tests (no build)",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": ["--no-build"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
             "label": "Run Two Sum Tests",
             "type": "shell",
             "command": "./scripts/test.sh",
