@@ -9,19 +9,18 @@
 
 #include <string>
 
-std::string merge_alternately(const std::string& word1,
-                              const std::string& word2) {
-  std::string res;
-  int idx = 0;
+std::string merge_alternately(const std::string& word1, const std::string& word2) {
+    std::string res;
+    int idx = 0;
 
-  res.reserve(word1.size() + word2.size());
+    res.reserve(word1.size() + word2.size());
 
-  while (idx < word1.size() || idx < word2.size()) {
-    if (idx < word1.size()) res += word1[idx];
-    if (idx < word2.size()) res += word2[idx];
+    while (idx < word1.size() || idx < word2.size()) {
+        if (idx < word1.size()) res += word1[idx];
+        if (idx < word2.size()) res += word2[idx];
 
-    idx++;
-  }
+        idx++;
+    }
 
-  return res;
+    return res;
 }

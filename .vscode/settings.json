@@ -1,9 +1,16 @@
 {
     // Use CMake Tools for configuration
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+
+    // Use clang-format instead of cpptools for formatting
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.formatOnSave": true,
+
     // File associations
     "files.associations": {
         "*.cpp": "cpp",
-        "*.h": "cpp"
+        "*.h": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
     }
 }
