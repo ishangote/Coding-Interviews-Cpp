@@ -122,6 +122,21 @@
                 "focus": false,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "Run Majority Element Test",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "majority_element_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
         }
     ]
 }

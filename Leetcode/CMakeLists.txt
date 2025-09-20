@@ -33,6 +33,12 @@ create_test_executable(implement_trie_test
     "208_implement_trie/implement_trie_test.cpp"
 )
 
+# Majority Element
+create_test_executable(majority_element_test
+    "169_majority_element/majority_element.cpp"
+    "169_majority_element/majority_element_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
