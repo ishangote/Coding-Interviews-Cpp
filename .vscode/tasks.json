@@ -152,6 +152,21 @@
                 "focus": false,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "Best Time to Buy and Sell Stock Test",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "best_time_to_buy_and_sell_stock_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
         }
     ]
 }

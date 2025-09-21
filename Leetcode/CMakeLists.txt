@@ -41,8 +41,14 @@ create_test_executable(majority_element_test
 
 # Find N Unique Integers Sum Up to Zero
 create_test_executable(find_n_unique_integers_sum_up_to_zero_test
-    "1304_find_n_unique_integers_sum_up_to_ zero/find_n_unique_integers_sum_up_to_ zero.cpp"
-    "1304_find_n_unique_integers_sum_up_to_ zero/find_n_unique_integers_sum_up_to_ zero_test.cpp"
+    "1304_find_n_unique_integers_sum_up_to_zero/find_n_unique_integers_sum_up_to_zero.cpp"
+    "1304_find_n_unique_integers_sum_up_to_zero/find_n_unique_integers_sum_up_to_zero_test.cpp"
+)
+
+# Find N Unique Integers Sum Up to Zero
+create_test_executable(best_time_to_buy_and_sell_stock_test
+    "121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.cpp"
+    "121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_test.cpp"
 )
 
 # Add more Leetcode problems here as you create them
