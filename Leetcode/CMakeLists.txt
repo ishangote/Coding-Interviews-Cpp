@@ -63,6 +63,12 @@ create_test_executable(plus_one_test
     "66_plus_one/plus_one_test.cpp"
 )
 
+# Maximum Number of Words You Can Type Test
+create_test_executable(maximum_number_of_words_you_can_type_test
+    "1935_maximum_number_of_words_you_can_type/maximum_number_of_words_you_can_type.cpp"
+    "1935_maximum_number_of_words_you_can_type/maximum_number_of_words_you_can_type_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
