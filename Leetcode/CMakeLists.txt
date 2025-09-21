@@ -51,6 +51,12 @@ create_test_executable(best_time_to_buy_and_sell_stock_test
     "121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_test.cpp"
 )
 
+# Find N Unique Integers Sum Up to Zero
+create_test_executable(find_the_index_of_the_first_occurrence_in_a_string_test
+    "28_find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string.cpp"
+    "28_find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
