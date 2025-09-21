@@ -137,6 +137,21 @@
                 "focus": false,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "Find N Unique Integers Sum Up To Zero Test",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "find_n_unique_integers_sum_up_to_zero_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
         }
     ]
 }

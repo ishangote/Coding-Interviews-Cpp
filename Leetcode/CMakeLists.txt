@@ -39,6 +39,12 @@ create_test_executable(majority_element_test
     "169_majority_element/majority_element_test.cpp"
 )
 
+# Find N Unique Integers Sum Up to Zero
+create_test_executable(find_n_unique_integers_sum_up_to_zero_test
+    "1304_find_n_unique_integers_sum_up_to_ zero/find_n_unique_integers_sum_up_to_ zero.cpp"
+    "1304_find_n_unique_integers_sum_up_to_ zero/find_n_unique_integers_sum_up_to_ zero_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
