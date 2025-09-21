@@ -45,16 +45,22 @@ create_test_executable(find_n_unique_integers_sum_up_to_zero_test
     "1304_find_n_unique_integers_sum_up_to_zero/find_n_unique_integers_sum_up_to_zero_test.cpp"
 )
 
-# Find N Unique Integers Sum Up to Zero
+# Best Time to Buy and Sell Stock Test
 create_test_executable(best_time_to_buy_and_sell_stock_test
     "121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.cpp"
     "121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_test.cpp"
 )
 
-# Find N Unique Integers Sum Up to Zero
+# Find Index of First Occurrence In String Test
 create_test_executable(find_the_index_of_the_first_occurrence_in_a_string_test
     "28_find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string.cpp"
     "28_find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string_test.cpp"
+)
+
+# Plus One Test
+create_test_executable(plus_one_test
+    "66_plus_one/plus_one.cpp"
+    "66_plus_one/plus_one_test.cpp"
 )
 
 # Add more Leetcode problems here as you create them

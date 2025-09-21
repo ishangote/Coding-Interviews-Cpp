@@ -139,7 +139,7 @@
             }
         },
         {
-            "label": "Find N Unique Integers Sum Up To Zero Test",
+            "label": "Run Find N Unique Integers Sum Up To Zero Test",
             "type": "shell",
             "command": "./scripts/test.sh",
             "args": [
@@ -154,7 +154,7 @@
             }
         },
         {
-            "label": "Best Time to Buy and Sell Stock Test",
+            "label": "Run Best Time to Buy and Sell Stock Test",
             "type": "shell",
             "command": "./scripts/test.sh",
             "args": [
@@ -169,11 +169,26 @@
             }
         },
         {
-            "label": "Find Index of First Occurrence In String",
+            "label": "Run Find Index of First Occurrence In String",
             "type": "shell",
             "command": "./scripts/test.sh",
             "args": [
                 "find_the_index_of_the_first_occurrence_in_a_string_test"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Plus One Test",
+            "type": "shell",
+            "command": "./scripts/test.sh",
+            "args": [
+                "plus_one_test"
             ],
             "group": "test",
             "presentation": {
