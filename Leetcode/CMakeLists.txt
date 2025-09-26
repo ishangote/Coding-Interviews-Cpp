@@ -69,6 +69,12 @@ create_test_executable(maximum_number_of_words_you_can_type_test
     "1935_maximum_number_of_words_you_can_type/maximum_number_of_words_you_can_type_test.cpp"
 )
 
+# Maximum Number of Words You Can Type Test
+create_test_executable(merge_two_sorted_lists_test
+    "21_merge_two_sorted_lists/merge_two_sorted_lists.cpp"
+    "21_merge_two_sorted_lists/merge_two_sorted_lists_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
