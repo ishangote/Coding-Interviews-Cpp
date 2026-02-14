@@ -3,6 +3,12 @@
 # Make all Leetcode subdirs available for #include
 include_directories(${CMAKE_SOURCE_DIR}/Leetcode)
 
+# Add Two Numbers
+create_test_executable(add_two_numbers_test
+    "2_add_two_numbers/add_two_numbers.cpp"
+    "2_add_two_numbers/add_two_numbers_test.cpp"
+)
+
 # Two Sum problem
 create_test_executable(two_sum_test
     "1_two_sum/two_sum.cpp"
