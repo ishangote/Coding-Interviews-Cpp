@@ -81,6 +81,12 @@ create_test_executable(merge_two_sorted_lists_test
     "21_merge_two_sorted_lists/merge_two_sorted_lists_test.cpp"
 )
 
+# Container With Most Water
+create_test_executable(container_with_most_water_test
+    "11_container_with_most_water/container_with_most_water.cpp"
+    "11_container_with_most_water/container_with_most_water_test.cpp"
+)
+
 # Add more Leetcode problems here as you create them
 # create_test_executable(three_sum_test
 #     "15_three_sum/three_sum.cpp"
